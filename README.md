@@ -1,1 +1,1 @@
-# RA2-Funcional_Haskel
+# RA2-Funcional_Haskell
