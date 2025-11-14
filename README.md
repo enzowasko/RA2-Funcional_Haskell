@@ -2,7 +2,7 @@
 
  **Instituição:** Pontifícia Universidade Católica do Paraná – PUCPR  
  **Disciplina:** Programação Lógica e Funcional  
- **Professor:** Frank Alcantara  
+ **Professor:** Frank Coelho Alcantara  
 
 ---
 
@@ -45,7 +45,7 @@ O programa funciona em linha de comando, salvando automaticamente o estado do in
 ##  **Exemplo de uso**
 
 
-# ** Cenário 1 – Persistência de Estado (Sucesso)**
+# Cenário 1 – Persistência de Estado (Sucesso)
 
 **1. Iniciar o programa sem arquivos existentes**
 
@@ -85,14 +85,14 @@ Log de auditoria carregado com 3 entradas.
 **6. Executar `list`**
 
 list
---- Inventário ---
+- Inventário -
 ID: 01 | Nome: PAPEL_A4 | Qtd: 50 | Cat: papelaria
 ID: 02 | Nome: CANETA | Qtd: 20 | Cat: escolar
 ID: 03 | Nome: LAPIS | Qtd: 30 | Cat: escolar
 
 ---
 
-# ** Cenário 2 – Erro de Lógica (Estoque Insuficiente)**
+# Cenário 2 – Erro de Lógica (Estoque Insuficiente)
 
 **1. Adicionar item com 10 unidades**
 
@@ -120,22 +120,21 @@ LogEntry {timestamp = 2025-11-11 22:53:08.568472523 UTC, acao = Remove "10" 15, 
 
 ---
 
-# ** Cenário 3 – Geração de Relatório de Erros**
+# Cenário 3 – Geração de Relatório de Erros
 
 **1. Executar comando `report`**
 
 report
-==================================
-| RELATÓRIO DE AUDITORIA DO LOG |
-==================================
 
---- Logs de Erro ---
+RELATÓRIO DE AUDITORIA DO LOG 
+
+- Logs de Erro -
 LogEntry {timestamp = 2025-11-14 22:53:08.568472523 UTC, acao = Remove "10" 15, detalhes = "Estoque insuficiente. Disponivel: 10", status = Falha "Estoque insuficiente"}
 
---- Item Mais Movimentado (Top 3) ---
+- Item Mais Movimentado (Top 3) -
 1º: ID 10 com 2 operações.
-2º: ID 01 com X operações.
-3º: ID 02 com Y operações.
+2º: ID 01 com 1 operações.
+3º: ID 02 com 1 operações.
 
 ==================================
 
@@ -148,6 +147,8 @@ LogEntry {timestamp = 2025-11-14 22:53:08.568472523 UTC, acao = Remove "10" 15, 
 | `main.hs` | Código completo do sistema em Haskell |
 | `arquitetodados.hs` | Código de dados puros |
 | `logicaPura.hs` | Lógica de negócio pura |
+| `Analiselogs.hs` | Análise de logs puras |
+| `ModuloIO.hs` | Módulo I/O e persistência |
 | `Inventario.dat` | Persistência do inventário |
 | `Auditoria.log` | Logs com timestamp de cada operação |
 
@@ -155,7 +156,7 @@ LogEntry {timestamp = 2025-11-14 22:53:08.568472523 UTC, acao = Remove "10" 15, 
 
 ##  **Ambiente de Execução**
 
- OnlineGDB ou Replit:  
-`INSERIR LINK AQUI`
+OnlineGDB ou Replit:  
+- https://onlinegdb.com/askmi5jMl
 
 ---
