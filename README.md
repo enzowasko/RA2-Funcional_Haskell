@@ -132,11 +132,11 @@ RELATÓRIO DE AUDITORIA DO LOG
 LogEntry {timestamp = 2025-11-14 22:53:08.568472523 UTC, acao = Remove "10" 15, detalhes = "Estoque insuficiente. Disponivel: 10", status = Falha "Estoque insuficiente"}
 
 - Item Mais Movimentado (Top 3) -
-1º: ID 10 com 2 operações.
-2º: ID 01 com 1 operações.
-3º: ID 02 com 1 operações.
+- 1º: ID 10 com 2 operações.
+- 2º: ID 01 com 1 operações.
+- 3º: ID 02 com 1 operações.
 
-==================================
+
 
 ---
 
