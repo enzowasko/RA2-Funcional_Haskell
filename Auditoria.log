@@ -1,0 +1,12 @@
+LogEntry {timestamp = 2025-11-14 23:21:23.155730056 UTC, acao = Add "01" 90, detalhes = "Quantidade de item existente atualizada para 180", status = Sucesso}
+LogEntry {timestamp = 2025-11-14 23:21:40.587089233 UTC, acao = Add "02" 20, detalhes = "Quantidade de item existente atualizada para 40", status = Sucesso}
+LogEntry {timestamp = 2025-11-14 23:21:51.513406982 UTC, acao = Add "03" 50, detalhes = "Quantidade de item existente atualizada para 100", status = Sucesso}
+LogEntry {timestamp = 2025-11-14 23:22:07.820781711 UTC, acao = Add "04" 30, detalhes = "Quantidade de item existente atualizada para 60", status = Sucesso}
+LogEntry {timestamp = 2025-11-14 23:22:24.807618633 UTC, acao = Add "05" 12, detalhes = "Quantidade de item existente atualizada para 24", status = Sucesso}
+LogEntry {timestamp = 2025-11-14 23:22:39.484163169 UTC, acao = Add "06" 200, detalhes = "Quantidade de item existente atualizada para 400", status = Sucesso}
+LogEntry {timestamp = 2025-11-14 23:22:52.24631405 UTC, acao = Add "07" 25, detalhes = "Quantidade de item existente atualizada para 50", status = Sucesso}
+LogEntry {timestamp = 2025-11-14 23:23:05.187596642 UTC, acao = Add "08" 15, detalhes = "Quantidade de item existente atualizada para 30", status = Sucesso}
+LogEntry {timestamp = 2025-11-14 23:23:23.026885938 UTC, acao = Add "09" 40, detalhes = "Quantidade de item existente atualizada para 80", status = Sucesso}
+LogEntry {timestamp = 2025-11-14 23:23:47.896589871 UTC, acao = Add "10" 10, detalhes = "Quantidade de item existente atualizada para 10", status = Sucesso}
+LogEntry {timestamp = 2025-11-14 23:30:30.836326972 UTC, acao = Remove "10" 15, detalhes = "Estoque insuficiente. Disponivel: 10", status = Falha "Estoque insuficiente"}
+
