@@ -8,10 +8,10 @@
 
 ##  **Integrantes do Grupo**  
 
-- **Emmanuel Antonietti Ribeiro dos Santos** — @emmanuelantonietti 
-- **Enzo Wasko Amorim** — @enzowasko  
-- **Juliano Cesar Enns Miranda Marcos** — @juliano2508  
-- **Vinicius Paraiso Dias** — @vinni-dias  
+- Emmanuel Antonietti Ribeiro dos Santos - [@emmanuelantonietti](https://github.com/emmanuelantonietti).
+- Enzo Wasko Amorim - [@enzowasko](https://github.com/enzowasko).
+- Juliano Cesar Enns Miranda Marcos - [@juliano2508](https://github.com/juliano2508).
+- Vinicius Paraiso Dias – [@vinni-dias](https://github.com/vinni-dias).
 
 ---
 
