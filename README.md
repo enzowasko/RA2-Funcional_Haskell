@@ -28,16 +28,17 @@ O programa funciona em linha de comando, salvando automaticamente o estado do in
 
 ---
 
-##  **Comandos disponíveis**
+## 💻 **Comandos disponíveis**
 
 | Comando | Descrição |
-| `add <id> <nome> <qtd> <categoria>` | Adiciona um item ou aumenta a quantidade |
-| `remove <id> <qtd>` | Remove a quantidade informada (ou exclui se zerar) |
-| `update <id> <nova_qtd>` | Define diretamente a nova quantidade |
-| `list` | Lista o inventário atual |
-| `report` | Gera relatório completo (erros, top 3 movimentações etc.) |
-| `historico <id>` | Mostra todo o histórico de logs daquele item |
-| `exit` / `quit` | Encerra o sistema |
+|--------|-----------|
+| `add <id> <nome> <qtd> <categoria>` | Adiciona um novo item ao inventário ou aumenta a quantidade de um item existente. |
+| `remove <id> <qtd>` | Remove a quantidade informada do item. Se a quantidade chegar a zero, o item é removido do inventário. |
+| `update <id> <nova_qtd>` | Atualiza diretamente a quantidade do item para o valor informado. Se a nova quantidade for zero, o item é removido. |
+| `list` | Lista todos os itens presentes no inventário com seus detalhes. |
+| `report` | Gera um relatório completo contendo: logs de erro, top 3 itens mais movimentados e contagem de operações. |
+| `historico <id>` | Exibe todas as operações registradas no log relacionadas ao item especificado. |
+| `exit` / `quit` | Encerra o programa e finaliza a execução. |
 
 ---
 
